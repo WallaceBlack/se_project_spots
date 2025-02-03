@@ -1,5 +1,6 @@
 .card {
-  width: 413px;
+  max-width: 413px;
+  max-height: 413px;
 }
 
 .card__image {
@@ -7,12 +8,23 @@
   width: 413px;
   object-fit: cover;
   display: block;
+  border-radius: 8px;
+}
+
+.card__title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 350px;
 }
 
 .card__content {
   display: flex;
+  padding-top: 12px;
   align-items: center;
   justify-content: space-between;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .card__like-btn {
@@ -22,4 +34,10 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+
+@media screen and (max-width: 627px) {
+  .card__image {
+    height: 288px;
+  }
 }
