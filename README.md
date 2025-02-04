@@ -8,6 +8,7 @@ Spots serves as a web application very similar to the social media outlet instag
 2. Figma
 3. Images
 4. Screen Recording
+5. Git Hub Link
 
 ## Project Overview
 
@@ -29,3 +30,7 @@ The Spots Project consist of a gallery of different images as well as a profile 
 ## Screen Recording
 
 - [Link to the screen recording](https://drive.google.com/file/d/1cslUXezBgiLPVRrHmVZR71AkkiQKNcrq/view?usp=sharing)
+
+## Git Hub Link
+
+-[Link to Git Hub Project](https://github.com/WallaceBlack/se_project_spots)

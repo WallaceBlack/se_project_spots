@@ -1,6 +1,5 @@
 .card {
   max-width: 413px;
-  max-height: 413px;
 }
 
 .card__image {
@@ -15,6 +14,11 @@
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 350px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500px;
+  color: #212121;
 }
 
 .card__content {
@@ -22,9 +26,6 @@
   padding-top: 12px;
   align-items: center;
   justify-content: space-between;
-  height: 24px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .card__like-btn {
