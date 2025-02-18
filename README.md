@@ -33,4 +33,4 @@ The Spots Project consist of a gallery of different images as well as a profile 
 
 ## Deployment Link
 
--[Link to Git Hub Project](https://github.com/WallaceBlack/se_project_spots)
+-[Link to Git Hub Project](https://wallaceblack.github.io/se_project_spots/)
