@@ -3,3 +3,8 @@
   flex-grow: 1;
   flex-shrink: 0;
 }
+@media screen and (max-width: 627px) {
+  .content {
+    padding: 0 16px;
+  }
+}

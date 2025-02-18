@@ -3,16 +3,22 @@
   display: flex;
   padding: 60px 0;
   border-top: 1px rgba(33, 33, 33, 0.4) solid;
-  margin-top: 50px;
 }
 
 .footer__text {
   margin: 0 auto;
   text-align: center;
   align-self: center;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #212121;
   opacity: 0.7;
+}
+@media screen and (max-width: 627px) {
+  .footer {
+    padding-top: 20px;
+    margin: auto;
+    max-width: 288px;
+  }
 }

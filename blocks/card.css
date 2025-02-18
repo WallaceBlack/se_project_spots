@@ -12,6 +12,7 @@
 
 .card__title {
   text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
   max-width: 350px;
   margin: 0;
@@ -35,12 +36,10 @@
   border: none;
   background-color: transparent;
   opacity: 0.4;
-  color: #212121;
   cursor: pointer;
 }
 
 .card__like-btn:hover {
-  color: #212121;
   opacity: 1;
 }
 
@@ -52,6 +51,5 @@
   .card__title {
     font-size: 16px;
     line-height: 16px;
-    justify-content: space-between;
   }
 }
