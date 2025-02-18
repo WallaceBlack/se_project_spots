@@ -31,6 +31,6 @@ The Spots Project consist of a gallery of different images as well as a profile 
 
 - [Link to the screen recording](https://drive.google.com/file/d/1cslUXezBgiLPVRrHmVZR71AkkiQKNcrq/view?usp=sharing)
 
-## Git Hub Link
+## Deployment Link
 
 -[Link to Git Hub Project](https://github.com/WallaceBlack/se_project_spots)
