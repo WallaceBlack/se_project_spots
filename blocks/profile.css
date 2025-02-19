@@ -3,6 +3,7 @@
   padding: 34px 0 20px;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
   justify-content: space-between;
+  max-width: 1280px;
 }
 
 .profile__avatar {
@@ -17,7 +18,7 @@
   justify-content: space-between;
 }
 
-.profile__column-left {
+.profile__info {
   display: flex;
   flex-direction: column;
 }
@@ -73,7 +74,7 @@
 
 .profile__add-btn {
   margin-top: auto;
-  width: 137px;
+  width: 157px;
   height: 52px;
   padding: 0;
   background-color: #212121;
@@ -81,16 +82,13 @@
   gap: 8px;
   border-radius: 8px;
   cursor: pointer;
-  align-items: baseline;
-  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile__add-btn:hover {
   opacity: 0.8;
-}
-
-.profile__plus-icon {
-  padding-right: 8px;
 }
 
 @media screen and (max-width: 627px) {
@@ -127,7 +125,7 @@
   .profile__description {
     margin: 0 0 32px;
   }
-  .profile__column-left {
+  .profile__info {
     text-align: center;
     margin-right: 0;
     justify-content: center;
